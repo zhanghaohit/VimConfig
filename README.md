@@ -15,7 +15,7 @@ Usage:
   3. Pull this repo to ~/.vim 
   4. Make a soft link ~/.vimrc to ~/.vim/vimrc 
   5. Install plugins by running ":VundleInstall" in vim
-  6. goto YCM dir and run "build.py --clang-completer" to enable semantic completion
+  6. goto YCM dir and run "./install.py --clang-completer" to enable semantic completion
   7. To install tmuxline, select a tmuxline theme by running ":Tmuxline theme" in vim, store the theme into a file by running ":TmuxlineSnapshot file", and finally source this file in ~/.tmux.conf, shown as follows. One can also directly use the one provided in this repo.
 <pre><code>
     set -g default-terminal "screen-256color"

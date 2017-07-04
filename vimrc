@@ -236,6 +236,7 @@ Plugin 'bling/vim-airline'
 Plugin 'edkolev/promptline.vim'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'paranoida/vim-airlineish'
+Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'itchyny/lightline.vim'
 
 Plugin 'FelikZ/ctrlp-py-matcher'
@@ -428,8 +429,8 @@ let g:ycm_filetype_blacklist = {
             \}
 
 "let g:ycm_global_ycm_extra_conf='~/.ycm/c.ycm_extra_conf.py'
-let g:ycm_global_ycm_extra_conf='/home/caiqc/.ycm/cpp.ycm_extra_conf.py'
-autocmd FileType c let g:ycm_global_ycm_extra_conf='/home/caiqc/.ycm/c.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf='/home/zhanghao/.ycm/cpp.ycm_extra_conf.py'
+autocmd FileType c let g:ycm_global_ycm_extra_conf='/home/zhanghao/.ycm/c.ycm_extra_conf.py'
 
 au BufWritePost *.c,*.cpp,*.h,*.cc silent! !ctags -R --fields=+iaSmK --extra=+q --sort=yes &
 
